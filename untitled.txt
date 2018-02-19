@@ -1,0 +1,12 @@
+1.error in the data
+there was no error in the data ...data was nicely arreanged and was free od missing values.
+2.preprocessing
+First  converted all the cat variables into  num variables by one hot
+-tried to make new features but didn't worked
+-tried to find some outlier by interqurtile range but can't find any
+3.training
+tried Neural net classifer but fond xgboost more accurate on lb
+-had filling that xgb was suffering from overfitting ..so used ensembling of neural net and xgb model
+-avg result gave me 979.61 score
+
+thank you gs for such wonderfull contast.
